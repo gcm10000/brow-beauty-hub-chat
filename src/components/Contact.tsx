@@ -6,7 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/components/ui/use-toast';
-import { Whatsapp } from 'lucide-react';
+import { MessageSquare } from 'lucide-react';
 
 type FormData = {
   name: string;
@@ -149,7 +149,7 @@ const Contact = () => {
             </div>
             
             <Button type="submit" className="w-full bg-beauty-gold hover:bg-beauty-gold/90">
-              <Whatsapp className="mr-2 h-4 w-4" /> Enviar via WhatsApp
+              <MessageSquare className="mr-2 h-4 w-4" /> Enviar via WhatsApp
             </Button>
           </form>
         </div>
